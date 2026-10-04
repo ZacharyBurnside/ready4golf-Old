@@ -5,13 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ready4Golf – find the tee time your whole group can make</title>
 <meta name="description" content="Stop texting “who’s around Saturday?” Everyone taps their open times and Ready4Golf shows when enough of your group can play.">
+<meta property="og:title" content="Ready4Golf – find the tee time your whole group can make">
+<meta property="og:description" content="Everyone taps the parts of the day they’re open. Ready4Golf finds the tee times your whole group can actually make.">
+<meta property="og:image" content="img/screenshot_01.jpg">
+<meta name="theme-color" content="#297345">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="site">
-  <div class="wrap">
+  <div class="wide">
     <a class="brand" href="index.html">Ready<span>4</span>Golf</a>
     <nav>
+      <a href="#how">How it works</a>
       <a href="support.html">Support</a>
       <a href="privacy.html">Privacy</a>
     </nav>
@@ -19,42 +24,127 @@
 </header>
 
 <main>
-  <section class="hero wrap">
-    <h1>Stop texting “who’s around Saturday?”</h1>
-    <p class="lead">Everyone taps the parts of the day they’re open. Ready4Golf finds the tee times your whole group can actually make.</p>
-  </section>
-
-  <div class="shots" aria-label="App screenshots">
-    <img src="img/screenshot_01.jpg" alt="Tee Times screen showing the best window for the group">
-    <img src="img/screenshot_02.jpg" alt="My Times screen with open blocks for each day">
-    <img src="img/screenshot_03.jpg" alt="Two-week grid of how many players are free">
-    <img src="img/screenshot_04.jpg" alt="Long-press menu to open all day or repeat weekly">
-    <img src="img/screenshot_05.jpg" alt="Group screen with members and settings">
+  <div class="hero-band">
+    <div class="wide hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">For golf groups</span>
+        <h1>Stop texting <em>“who’s around Saturday?”</em></h1>
+        <p class="lead">Everyone taps the parts of the day they’re open. Ready4Golf finds the tee times your whole group can actually make.</p>
+        <div class="cta-row">
+          <!-- When the app is live, turn this into a link to the App Store page: <a class="cta" href="YOUR_APP_STORE_URL"> -->
+          <span class="cta soon"><span><small>Coming soon to the</small>App Store</span></span>
+          <a class="ghost" href="#how">See how it works →</a>
+        </div>
+        <p class="cta-note">Free to start. iPhone.</p>
+      </div>
+      <div class="phones" aria-label="App screenshots">
+        <div class="phone back"><img src="img/screenshot_02.jpg" alt="My Times screen with open blocks for each day"></div>
+        <div class="phone front"><img src="img/screenshot_01.jpg" alt="Tee Times screen showing the best window for the group"></div>
+      </div>
+    </div>
   </div>
 
-  <div class="wrap">
-    <div class="cards">
+  <div class="strip">
+    <div class="wide">
+      <div><b>No accounts</b> · sign in with iCloud</div>
+      <div><b>Everyone’s phone</b> · stays in sync</div>
+      <div><b>Blocks, not minutes</b> · early to twilight</div>
+      <div><b>Multiple groups</b> · switch in a tap</div>
+    </div>
+  </div>
+
+  <section class="block wide" id="how">
+    <p class="kicker">How it works</p>
+    <h2 class="section-title">From group chat chaos to a tee time in three taps.</h2>
+    <p class="section-sub">No spreadsheets, no scrolling back through fifty messages.</p>
+    <div class="steps">
+      <div class="step">
+        <span class="num">1</span>
+        <h3>Invite your group</h3>
+        <p>Send one link. Friends tap it, the app opens, and they’re in. Your group stays in sync across everyone’s phones.</p>
+        <div class="shot"><img src="img/screenshot_05.jpg" alt="Group screen with members and settings"></div>
+      </div>
+      <div class="step">
+        <span class="num">2</span>
+        <h3>Tap when you’re open</h3>
+        <p>Early, late morning, midday or twilight. Mark the blocks that work for the next two weeks.</p>
+        <div class="shot"><img src="img/screenshot_02.jpg" alt="My Times screen with open blocks for each day"></div>
+      </div>
+      <div class="step">
+        <span class="num">3</span>
+        <h3>See the overlap</h3>
+        <p>The best window sits at the top, with who’s in and who you’re still waiting on. Copy it to the group chat and book it.</p>
+        <div class="shot"><img src="img/screenshot_01.jpg" alt="Tee Times screen showing the best window for the group"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block wide">
+    <div class="cards four">
       <div class="card"><h3>The overlap, done for you</h3><p>See the best window at the top, who’s in, and who you’re still waiting on.</p></div>
       <div class="card"><h3>Silence isn’t a no</h3><p>Someone who hasn’t answered shows as “waiting on” instead of being counted out.</p></div>
       <div class="card"><h3>Coarse blocks, not exact times</h3><p>Nobody knows on Tuesday if 7:14 works. Everybody knows if Saturday morning does.</p></div>
       <div class="card"><h3>More than one group</h3><p>The Saturday regulars, the work crew, the league. Switch between them in a tap.</p></div>
     </div>
+  </section>
 
-    <h2>No accounts</h2>
-    <p>Sign in with the iCloud account you already have. Invite friends with a link and your group stays in sync across everyone’s phones.</p>
+  <section class="wide">
+    <div class="feature flip">
+      <div class="feature-media"><div class="phone"><img src="img/screenshot_03.jpg" alt="Two-week grid of how many players are free"></div></div>
+      <div>
+        <p class="kicker">Plan ahead</p>
+        <h3>The next two weeks at a glance.</h3>
+        <p>A grid shows how many players are free in every block, so the good days jump out before you start texting.</p>
+        <ul>
+          <li>Counts for early, late morning, midday and twilight</li>
+          <li>Windows with enough players are highlighted</li>
+          <li>See who still hasn’t answered</li>
+        </ul>
+      </div>
+    </div>
+    <div class="feature">
+      <div class="feature-media"><div class="phone"><img src="img/screenshot_04.jpg" alt="Long-press menu to open all day or repeat weekly"></div></div>
+      <div>
+        <p class="kicker">Fast to fill in</p>
+        <h3>Set your week in seconds.</h3>
+        <p>Press and hold a day to mark yourself open all day, repeat every Saturday, or save a standing default.</p>
+        <ul>
+          <li>“I’m open all day” in one tap</li>
+          <li>Repeat a day every week</li>
+          <li>Mark days you’re out so no one waits on you</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-    <h2>Ready4Golf Pro</h2>
-    <p>Free groups hold up to 4 players, and you can organize 1 group. Pro removes both limits. The organizer subscribes and everyone in their group gets Pro.</p>
-    <p class="small">Pro is an auto-renewing subscription (monthly or annual). Manage or cancel any time in your Apple ID settings.</p>
+  <section class="wide">
+    <div class="pricing">
+      <div>
+        <h2>Free for a foursome. Pro for the whole crew.</h2>
+        <p>Free groups hold up to 4 players, and you can organize 1 group. Pro removes both limits. The organizer subscribes and everyone in their group gets Pro.</p>
+        <p class="small">Pro is an auto-renewing subscription (monthly or annual). Manage or cancel any time in your Apple ID settings.</p>
+      </div>
+      <div class="tiers">
+        <div class="tier"><h3>Free</h3><p>Up to 4 players · 1 group</p></div>
+        <div class="tier pro"><h3>Ready4Golf Pro</h3><p>Unlimited players and groups · the organizer pays, everyone benefits</p></div>
+      </div>
+    </div>
+  </section>
 
-    <p><a class="pill" href="support.html">Get help</a></p>
-  </div>
+  <section class="final">
+    <h2>Get your group on the same page.</h2>
+    <p>Less texting, more golf.</p>
+    <div class="cta-row">
+      <span class="cta soon"><span><small>Coming soon to the</small>App Store</span></span>
+      <a class="ghost" href="support.html">Questions? Get help</a>
+    </div>
+  </section>
 </main>
 
 <footer class="site">
-  <div class="wrap">
+  <div class="wide">
     <a href="support.html">Support</a><a href="privacy.html">Privacy Policy</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a>
-    <p>© 2026 Zachary Burnside. Ready4Golf is not affiliated with or endorsed by any golf course or booking service.</p>
+    <p>© 2026 Ready4Golf. Not affiliated with or endorsed by any golf course or booking service.</p>
   </div>
 </footer>
 </body>
